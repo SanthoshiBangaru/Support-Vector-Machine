@@ -1,0 +1,131 @@
+
+
+1. What is Python and why is it popular in Data Science?
+
+Python is a high-level, interpreted programming language. 
+It is popular in Data Science due to its simple syntax, rich libraries (NumPy, Pandas, Scikit-learn), and strong community support.
+
+2. Difference between List, Tuple, Set, and Dictionary
+	•	List: Ordered, mutable, allows duplicates
+	•	Tuple: Ordered, immutable, allows duplicates
+	•	Set: Unordered, mutable, no duplicates
+	•	Dictionary: Key-value pairs, mutable, keys are unique
+
+3. What is a Lambda function?
+
+A lambda function is a small anonymous function written in a single line using the lambda keyword.
+
+4. What is map(), filter(), reduce()?
+	•	map(): Applies a function to each element
+	•	filter(): Filters elements based on a condition
+	•	reduce(): Aggregates elements into a single value
+
+5. Difference between NumPy array and Python list
+	•	NumPy arrays are faster, memory-efficient, and support vectorized operations
+	•	Python lists are flexible but slower for numerical computation
+
+6. What is Pandas used for?
+
+Pandas is used for data manipulation and analysis, especially working with structured data like tables (DataFrames).
+
+7. How do you handle missing values?
+	•	Remove rows/columns
+	•	Fill with mean/median/mode
+	•	Forward or backward fill
+	•	Use model-based imputation
+
+8. Difference between loc and iloc
+	•	loc: Label-based indexing
+	•	iloc: Integer position-based indexing
+
+9. What is Mean, Median, Mode?
+	•	Mean: Average
+	•	Median: Middle value
+	•	Mode: Most frequent value
+
+10. What is Variance and Standard Deviation?
+	•	Variance: Measure of data spread from the mean
+	•	Standard Deviation: Square root of variance
+
+11. What is Correlation?
+
+Correlation measures the strength and direction of the relationship between two variables.
+
+12. What is Machine Learning?
+
+Machine Learning is a subset of AI that enables systems to learn patterns from data and make predictions without explicit programming.
+
+13. Types of Machine Learning
+	•	Supervised Learning
+	•	Unsupervised Learning
+	•	Semi-Supervised Learning
+	•	Reinforcement Learning
+
+14. Difference between Regression and Classification
+	•	Regression: Predicts continuous values
+	•	Classification: Predicts discrete class labels
+
+15. What is Linear Regression?
+
+A supervised learning algorithm that models the linear relationship between dependent and independent variables.
+
+16. What are assumptions of Linear Regression?
+	•	Linearity
+	•	Independence
+	•	Homoscedasticity
+	•	Normality of errors
+	•	No multicollinearity
+
+17. What is R² score?
+
+R² score measures how well the model explains the variance in the dependent variable.
+
+18. What is Logistic Regression?
+
+A classification algorithm used to predict binary outcomes using probability.
+
+19. Why is sigmoid function used?
+
+It converts output into a probability value between 0 and 1.
+
+20. Difference between Linear and Logistic Regression
+	•	Linear Regression predicts continuous values
+	•	Logistic Regression predicts probabilities/classes
+
+21. What is Margin in SVM?
+
+Margin is the distance between the decision boundary and the nearest data points.
+
+22. What are Support Vectors?
+
+Support Vectors are data points closest to the decision boundary that influence the model.
+
+23. What is Kernel Trick?
+
+Kernel trick transforms non-linear data into higher dimensions to make it linearly separable.
+
+24. Types of Kernels
+	•	Linear
+	•	Polynomial
+	•	RBF (Gaussian)
+	•	Sigmoid
+
+25. What is C parameter in SVM?
+
+C controls the trade-off between maximizing margin and minimizing classification error.
+
+26. What is Train-Test Split?
+
+It is the process of dividing data into training and testing sets to evaluate model performance.
+
+27. Difference between Batch and Streaming
+	•	Batch: Processes large data chunks at intervals
+	•	Streaming: Processes data in real time
+
+28. What is ETL?
+
+ETL stands for Extract, Transform, Load—a process used in data pipelines to move and prepare data.
+
+29. Difference between Bias and Variance
+	•	Bias: Error due to oversimplified model
+	•	Variance: Error due to model overfitting
